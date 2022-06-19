@@ -1,0 +1,43 @@
+:root { 
+  --pink: hsl(322, 100%, 66%); 
+  --very-pale-cyan: hsl(192, 100%, 96%); 
+  --very-dark-cyan: hsl(192, 100%, 9%); --grayish-blue: hsl(208, 11%, 55%); 
+--box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);} 
+
+*, *::before, *::after { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;} 
+
+body { font-family: "Open Sans"; 
+      font-size: 1rem; 
+      background-image: url("bg-hero-desktop.svg"); 
+      background-size: contain; background-repeat: no-repeat;} 
+
+h1, h2, h3 { color: var(--very-dark-cyan); 
+      margin: 1em 0;} 
+
+h1 { font-family: "Poppins"; } 
+
+h3 { font-size: 1.1rem;} 
+
+p { margin: 1em 0; 
+   line-height: 1.6;} 
+a{ text-decoration: none;} 
+ul { list-style: none;} 
+.container 
+{ padding: 0 2em; 
+ max-width: 520px; 
+ margin: 0 auto;} 
+
+.cta { font-weight: 700; 
+      font-size: 0.8rem;  
+       padding: 1.2em 4.5em;  
+      transition: 0.25s; 
+  background-color: var(--pink);
+  color: white;
+box-shadow: var(--box-shadow); } 
+
+illustration { 
+  margin: 2em 0; 
+  width: 100%;}
